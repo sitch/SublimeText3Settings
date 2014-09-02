@@ -1,0 +1,24 @@
+[
+   {"caption" : "-"},
+    {
+      "id": "aligntab",
+      "caption": "Align By",
+      "children": [
+          {
+          "caption" : "Ruby Dsl",
+          "command" : "align_tab",
+          "args"    : {"user_input" : "all_ruby_dsl"}
+          },
+          {
+          "caption" : "JS Props",
+          "command" : "align_tab",
+          "args"    : {"user_input" : "all_js_prop"}
+          },
+          {
+          "caption" : "CSS",
+          "command" : "align_tab",
+          "args"    : {"user_input" : "all_css"}
+          }       
+      ]
+  }
+]

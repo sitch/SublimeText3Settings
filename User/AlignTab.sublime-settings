@@ -1,0 +1,13 @@
+{
+  "named_patterns": {
+    "first_equal"  : "=/f",
+    "first_comma"  : ",/f",
+    "first_colon"  : ":/f",
+    "all_and"      : "&",
+    "all_bar"      : "\\|",
+    "all_space"    : "\\s*/l1l0",
+    "all_ruby_dsl" : "(?<=:|,) /l1l1",
+    "all_js_prop"  : "(?<=:) /l1l1f",
+    "all_css"      : ":/r0cl"
+  }
+}

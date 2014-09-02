@@ -1,0 +1,64 @@
+[
+	// Line swap up
+	{
+		"keys": ["alt+up"],
+		"command": "swap_line_up"
+	},
+
+	// Line swap down
+	{
+		"keys": ["alt+down"],
+		"command": "swap_line_down"
+	},
+
+	// Tab Alignment
+	{
+		"keys": ["super+shift+a"],
+		"command": "align_tab",
+    "args": {"user_input" : "all_ruby_dsl"}
+	},
+
+	// Convert Ruby 1.8 hashes to Ruby 1.9 syntax
+	{
+		"keys": ["super+shift+h"],
+		"command": "hash_syntax"
+	},
+
+	// Convert single to double or double to single quotes
+	{
+		"keys": ["super+shift+'"],
+		"command": "change_quotes"
+	},
+
+	// Toggle string to symbol
+	{
+		"keys": ["super+shift+;"],
+		"command": "toggle_symbol"
+	},
+
+	// Go to line
+	{
+		"keys": ["super+l"],
+		"command": "show_overlay",
+		"args": {
+			"overlay": "goto",
+			"text": ":"
+		}
+	},
+
+	// Go to symbol
+	{
+		"keys": ["super+shift+."],
+		"command": "goto_definition"
+	},
+
+	// Delete a line with cmd+delete
+	{
+		"keys": ["super+backspace"],
+		"command": "run_macro_file",
+		"args": {
+			"file": "Packages/Default/Delete Line.sublime-macro"
+		}
+	}
+
+]
