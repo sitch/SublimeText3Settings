@@ -1,1 +1,1 @@
-{"description": "SublimeLinter plugin for CoffeeScript, using coffee --compile.", "url": "https://github.com/SublimeLinter/SublimeLinter-coffee", "version": "1.1.6"}
+{"version": "1.1.7", "url": "https://github.com/SublimeLinter/SublimeLinter-coffee", "description": "SublimeLinter plugin for CoffeeScript, using coffee --compile."}
