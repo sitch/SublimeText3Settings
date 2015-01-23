@@ -24,18 +24,20 @@
 		".git",
 		".hg",
 		"CVS",
-		"tmp"
+		"tmp",
+		"coverage",
+		"log"
 	],
-	"font_size": 11.0,
+	"font_size": 11,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"TrailingSpaces",
-		"SublimeLinter-coffeelint",
+		"SublimeLinter-coffee",
 		"Vintage",
+		"SublimeLinter-coffeelint",
+		"TrailingSpaces",
 		"Handlebars",
-		"SublimeLinter",
-		"SublimeLinter-coffee"
+		"SublimeLinter"
 	],
 	"remember_open_files": false,
 	"tab_size": 2,

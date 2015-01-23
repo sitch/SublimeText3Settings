@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		"hamljs"
+		"hamljs",
+		"haml"
 	]
 }

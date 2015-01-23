@@ -1,10 +1,19 @@
 {
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"AlignTab",
 		"All Autocomplete",
 		"Alternative Autocompletion",
 		"ANTLR syntax highlight",
+		"ApplySyntax",
 		"BeautifyRuby",
 		"Better CoffeeScript",
 		"BracketHighlighter",
@@ -25,6 +34,7 @@
 		"Markdown Extended",
 		"Monokai Extended",
 		"nginx",
+		"Package Control",
 		"Rails Developer Snippets",
 		"Rails Partial",
 		"Ruby Debugger",
